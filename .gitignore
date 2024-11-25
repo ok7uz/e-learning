@@ -1,0 +1,16 @@
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.swp
+.Python
+.env
+venv/
+*.db
+*.tgz
+*.egg-info/
+node_modules/
+.idea/
