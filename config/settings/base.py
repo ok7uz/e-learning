@@ -8,6 +8,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 LOCAL_APPS = [
     'apps.accounts.apps.AccountsConfig',
+    'apps.courses.apps.CoursesConfig',
 ]
 
 THIRD_PARTY_APPS = [

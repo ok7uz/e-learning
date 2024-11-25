@@ -12,6 +12,7 @@ class UserViewSet(ModelViewSet):
 
 
 class RegisterViewSet(ViewSet):
+    serializer_class = RegisterSerializer
 
     @staticmethod
     def create(request):
